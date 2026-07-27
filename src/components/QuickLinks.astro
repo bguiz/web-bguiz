@@ -1,0 +1,63 @@
+---
+import { Icon } from 'astro-icon/components';
+import links from '../data/links.json';
+---
+
+<footer class="quick-links">
+  <h3>Connect & Collaborate</h3>
+  <div class="links-grid">
+    {links.map((link) => (
+      <a href={link.url} target="_blank" rel="noopener noreferrer" class="link-item">
+        <Icon name={`mdi:${link.icon}`} size="32" />
+        <span>{link.name}</span>
+      </a>
+    ))}
+  </div>
+  <div class="contact-cta">
+    <p>Hire for Full-Time AI DevRel • Book for Speaking/Workshops</p>
+    <a href="mailto:alex@example.com" class="btn-neon">Schedule a Call</a>
+  </div>
+</footer>
+
+<style>
+  .quick-links {
+    background: var(--bg-card);
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 1px solid #333;
+  }
+  .quick-links h3 { font-size: 2rem; margin-bottom: 2rem; }
+  
+  .links-grid {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-main);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .link-item:hover {
+    color: var(--neon-green);
+    transform: translateY(-3px);
+  }
+  
+  .link-item :global(svg) {
+    transition: filter 0.3s ease;
+  }
+  
+  .link-item:hover :global(svg) {
+    filter: drop-shadow(0 0 8px var(--neon-green));
+  }
+  
+  .contact-cta p { color: var(--text-muted); margin-bottom: 1.5rem; }
+</style>
