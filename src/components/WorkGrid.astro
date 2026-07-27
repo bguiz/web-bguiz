@@ -1,0 +1,59 @@
+---
+import projects from '../data/projects.json';
+---
+
+<section class="work-section">
+  <h2 class="section-title">Featured Work <span class="text-neon-purple">// DevRel Portfolio</span></h2>
+  
+  <div class="card-grid">
+    {projects.map((project) => (
+      <a href={project.link} class="work-card">
+        <div class="card-icon">{project.icon}</div>
+        <h3>{project.title}</h3>
+        <span class="category-tag">{project.category}</span>
+        <p>{project.description}</p>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .work-section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+  .section-title { font-size: 2.5rem; margin-bottom: 3rem; text-align: center; }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .work-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: var(--text-main);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .work-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--neon-purple);
+    box-shadow: 0 5px 20px rgba(176, 38, 255, 0.2);
+  }
+  
+  .card-icon { font-size: 3rem; margin-bottom: 1rem; }
+  .work-card h3 { font-size: 1.5rem; margin: 0 0 0.5rem 0; }
+  .category-tag { 
+    font-size: 0.875rem; 
+    color: var(--neon-green); 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .work-card p { color: var(--text-muted); line-height: 1.6; }
+</style>

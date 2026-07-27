@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Rio Olympics API",
+    "category": "Scale Card",
+    "description": "Architected an API scaling past 1M+ users during peak events. Deep dive into multi-tenant auth and load balancing.",
+    "icon": "🎥",
+    "link": "#"
+  },
+  {
+    "title": "Web3 & AI Syllabi",
+    "category": "Education Card",
+    "description": "Comprehensive course frameworks designed for Hedera, Injective, and Rootstock. Bridging theory and practice.",
+    "icon": "✍️",
+    "link": "#"
+  },
+  {
+    "title": "Global Lectures",
+    "category": "Thought Leadership",
+    "description": "Featured talks at Singapore Management University and high-energy developer education content on YouTube.",
+    "icon": "🎙️",
+    "link": "#"
+  }
+]
