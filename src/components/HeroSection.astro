@@ -1,0 +1,65 @@
+---
+import { Image } from 'astro:assets';
+---
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Scaling Core Architecture. <span class="text-neon-green">Educating Global Developers.</span></h1>
+      <p class="subheadline">
+        10 years of backend engineering mixed with 7 years of creating top-tier tech syllabi and workshops. 
+        I bridge the gap between complex AI/software systems and the developers who build them.
+      </p>
+      <a href="#contact" class="btn-neon">Let's Collaborate</a>
+      <p class="context-subtext">Available for full-time DevRel leadership roles or global speaking & workshop engagements.</p>
+    </div>
+    <div class="hero-image">
+      <Image src="/img/profile.jpeg" alt="Profile Picture" width="200" height="150" />
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    align-items: center;
+  }
+  .hero-text h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+  .subheadline {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    max-width: 500px;
+  }
+  .context-subtext {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    border: 2px solid var(--neon-green);
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+  }
+  @media (max-width: 768px) {
+    .hero-content { grid-template-columns: 1fr; text-align: center; }
+    .hero-text h1 { font-size: 2.5rem; }
+    .subheadline { margin: 0 auto 2rem; }
+  }
+</style>
