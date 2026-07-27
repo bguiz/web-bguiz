@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Autopilot",
+    "role": "Senior Engineer",
+    "achievement": "Built multi-tenant auth systems",
+    "year": "2020 - Present"
+  },
+  {
+    "company": "Qantas",
+    "role": "Systems Architect",
+    "achievement": "Crewing & rostering systems for global flights",
+    "year": "2016 - 2020"
+  },
+  {
+    "company": "DApps Dev Club",
+    "role": "Founder",
+    "achievement": "Educating 10k+ developers in Web3",
+    "year": "2018 - Present"
+  }
+]   
