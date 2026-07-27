@@ -1,0 +1,61 @@
+---
+// No React imports needed unless using React hooks inside
+// If you need the typewriter-effect library, you might still need a client: directive
+---
+
+<div class="terminal-window">
+  <div class="terminal-header">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+  </div>
+  <div class="terminal-body">
+    <span class="prompt">$ </span>
+    <span id="typewriter" class="text-neon-green"></span>
+  </div>
+</div>
+
+<style>
+  .terminal-window {
+    background: #0d0d0d;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: var(--font-mono);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  /* ... rest of your CSS ... */
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .red { background: #ff5f56; }
+  .yellow { background: #ffbd2e; }
+  .green { background: #27c93f; }
+  .terminal-body {
+    padding: 20px;
+    font-size: 1.1rem;
+    min-height: 60px;
+  }
+  .prompt { color: var(--neon-purple); font-weight: bold; }
+</style>
+
+<script>
+  // Move your logic here or import a React component with client:only
+  import Typewriter from 'typewriter-effect/dist/core';
+  
+  const element = document.getElementById('typewriter');
+  if (element) {
+    const typewriter = new Typewriter(element, {
+      loop: true,
+      delay: 75,
+      deleteSpeed: 50,
+    });
+
+    typewriter
+      .typeString('Building for millions...')
+      .pauseFor(2000)
+      .deleteAll()
+      .typeString('Teaching the next generation...')
+      .pauseFor(2000)
+      .deleteAll()
+      .start();
+  }
+</script>

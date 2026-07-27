@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import TerminalAnimation from '../components/TerminalAnimation.astro';
 ---
 <section class="hero">
   <div class="hero-content">
@@ -14,6 +15,7 @@ import { Image } from 'astro:assets';
     </div>
     <div class="hero-image">
       <Image src="/img/profile.jpeg" alt="Profile Picture" width="200" height="150" />
+      <TerminalAnimation client:load />
     </div>
   </div>
 </section>
