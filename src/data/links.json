@@ -1,22 +1,37 @@
 [
   {
-    "name": "GitHub",
-    "url": "https://github.com/yourusername",
-    "icon": "github"
-  },
-  {
     "name": "LinkedIn",
-    "url": "https://linkedin.com/in/yourusername",
+    "url": "http://linkedin.com/in/brendangraetz/",
     "icon": "linkedin"
   },
   {
-    "name": "Substack",
-    "url": "https://yourname.substack.com",
-    "icon": "pencil"
+    "name": "YouTube",
+    "url": "https://www.youtube.com/@devRelRel?sub_confirmation=1",
+    "icon": "youtube"
   },
   {
-    "name": "YouTube",
-    "url": "https://youtube.com/@yourchannel",
-    "icon": "youtube"
+    "name": "Substack",
+    "url": "https://handsondev.substack.com/",
+    "icon": "post"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/bguiz",
+    "icon": "github"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://x.com/intent/user?screen_name=bguiz",
+    "icon": "twitter"
+  },
+  {
+    "name": "Stackoverflow",
+    "url": "http://stackoverflow.com/users/194982/bguiz",
+    "icon": "stack-overflow"
+  },
+  {
+    "name": "Blog",
+    "url": "https://blog.bguiz.com/",
+    "icon": "web"
   }
 ]

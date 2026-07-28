@@ -1,20 +1,44 @@
 [
   {
-    "company": "Autopilot",
-    "role": "Senior Engineer",
-    "achievement": "Built multi-tenant auth systems",
-    "year": "2020 - Present"
+    "company": "Constraint Technologies",
+    "role": "Software Engineer",
+    "achievement": "Crewing & rostering systems for Qantas flights",
+    "year": ""
   },
   {
-    "company": "Qantas",
-    "role": "Systems Architect",
-    "achievement": "Crewing & rostering systems for global flights",
-    "year": "2016 - 2020"
+    "company": "Seven Network",
+    "role": "Lead Engineer",
+    "achievement": "Scaled API past 1m concurrent users, with zero downtime.",
+    "year": ""
+  },
+  {
+    "company": "Autopilot",
+    "role": "Senior Engineer",
+    "achievement": "Built multi-tenant auth systems with dynamic schemas.",
+    "year": ""
   },
   {
     "company": "DApps Dev Club",
     "role": "Founder",
-    "achievement": "Educating 10k+ developers in Web3",
-    "year": "2018 - Present"
+    "achievement": "Educated 100s of web3 developers in Singapore. Organised national blockchain challenge hackathon.",
+    "year": ""
+  },
+  {
+    "company": "Rootstock",
+    "role": "Head of DevRel",
+    "achievement": "Designed and published multiple user and developer courses.",
+    "year": ""
+  },
+  {
+    "company": "Hedera",
+    "role": "DevRel Engineer",
+    "achievement": "Applied developer success techniques and turned a hackathon from 0 submissions to 20+ in the next run.",
+    "year": ""
+  },
+  {
+    "company": "Injective",
+    "role": "Head of DevRel",
+    "achievement": "Created AI SDK for the platform. Designed and published developer crash course.",
+    "year": ""
   }
 ]   

@@ -6,7 +6,7 @@ export default defineConfig({
   integrations: [
     icon({
       include: {
-        mdi: ['github', 'linkedin', 'youtube', 'pencil'],
+        mdi: ['github', 'linkedin', 'youtube', 'blog', 'twitter', 'stack-overflow', 'web'],
       },
     }),
   ],

@@ -1,22 +1,22 @@
 [
   {
-    "title": "Rio Olympics API",
-    "category": "Scale Card",
-    "description": "Architected an API scaling past 1M+ users during peak events. Deep dive into multi-tenant auth and load balancing.",
-    "icon": "🎥",
+    "title": "Backend Engineering",
+    "category": "Scale",
+    "description": "Architected and built API for Rio Olympics, scaling past 1m concurrent users during peak events. Auth, dynamic API, load balancing, blue-green deployments, caching. Built multi-tenant dynamic schemas APIs for email marketing SaaS provider.",
+    "icon": "⌨️",
     "link": "#"
   },
   {
-    "title": "Web3 & AI Syllabi",
-    "category": "Education Card",
-    "description": "Comprehensive course frameworks designed for Hedera, Injective, and Rootstock. Bridging theory and practice.",
-    "icon": "✍️",
+    "title": "Developer Courses",
+    "category": "Education",
+    "description": "Curriculum design and learning materials for developer courses for Hedera, Injective, and Rootstock. Bridging theory and practical labs. Workshops, tutorials, documentation. Guest lectures at SMU.",
+    "icon": "🎓",
     "link": "#"
   },
   {
-    "title": "Global Lectures",
+    "title": "DevRel Strategy",
     "category": "Thought Leadership",
-    "description": "Featured talks at Singapore Management University and high-energy developer education content on YouTube.",
+    "description": "Focused on Developer Success. Segmentation, personas, journey mapping, information valves, OKRs.",
     "icon": "🎙️",
     "link": "#"
   }
