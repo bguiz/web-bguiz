@@ -1,8 +1,8 @@
 [
   {
-    "name": "LinkedIn",
-    "url": "http://linkedin.com/in/brendangraetz/",
-    "icon": "linkedin"
+    "name": "Blog",
+    "url": "https://blog.bguiz.com/",
+    "icon": "web"
   },
   {
     "name": "YouTube",
@@ -10,14 +10,14 @@
     "icon": "youtube"
   },
   {
-    "name": "Substack",
-    "url": "https://handsondev.substack.com/",
-    "icon": "post"
-  },
-  {
     "name": "GitHub",
     "url": "https://github.com/bguiz",
     "icon": "github"
+  },
+  {
+    "name": "Substack",
+    "url": "https://handsondev.substack.com/",
+    "icon": "post"
   },
   {
     "name": "Twitter",
@@ -30,8 +30,8 @@
     "icon": "stack-overflow"
   },
   {
-    "name": "Blog",
-    "url": "https://blog.bguiz.com/",
-    "icon": "web"
+    "name": "LinkedIn",
+    "url": "http://linkedin.com/in/brendangraetz/",
+    "icon": "linkedin"
   }
 ]
