@@ -29,11 +29,13 @@ import links from '../data/links.json';
   .quick-links h3 { font-size: 2rem; margin-bottom: 2rem; }
   
   .links-grid {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
     margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .link-item {

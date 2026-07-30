@@ -18,7 +18,7 @@ import TerminalAnimation from '../components/TerminalAnimation.astro';
       <p class="context-subtext">DevRel • AI • Speaking/Workshops • Developer Education</p>
     </div>
     <div class="hero-image">
-      <Image src="/img/profile.jpeg" alt="profile" width="365" height="475" />
+      <Image src="/img/profile.jpeg" alt="profile" width="365" height="475" sizes="(max-width: 768px) 100vw, 365px" />
       <TerminalAnimation client:load />
     </div>
   </div>
@@ -56,12 +56,16 @@ import TerminalAnimation from '../components/TerminalAnimation.astro';
     margin-top: 1rem;
     font-style: italic;
   }
-  .hero-image img {
+  .hero-image .profile-img {
     width: 100%;
-    max-width: 400px;
+    height: auto;
+    max-width: 100%;
+    max-height: 60vh;
     border-radius: 12px;
     border: 2px solid var(--neon-green);
     box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+    display: block;
+    object-fit: contain;
   }
   @media (max-width: 768px) {
     .hero-content { grid-template-columns: 1fr; text-align: center; }
